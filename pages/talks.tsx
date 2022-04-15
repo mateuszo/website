@@ -105,6 +105,12 @@ export async function getStaticProps() {
           link: "https://www.youtube.com/watch?v=KUHoC4xCV2Y",
         },
         {
+          date: "2017-10-14",
+          venue: "DevCamp 2017",
+          title: "Warsztaty Messenger Bot - to prostsze niż myślisz!",
+          link: "https://codecool.com/pl/blog/mentorzy-codecool-na-devcamp/",
+        },
+        {
           date: "2017-06-05",
           venue: "Tipi UX #2 Kraków",
           title:
