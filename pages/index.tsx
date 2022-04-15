@@ -4,12 +4,12 @@ import Icon from "../components/icon";
 const Home: NextPage = () => {
   return (
     <div className="border-8 border-black my-4">
-      <h1 className="text-6xl font-bold uppercase  text-center ">About</h1>
+      <h1 className="text-6xl font-bold uppercase mt-2 text-center ">About</h1>
       <div className="font-mono border-8 border-black m-2 md:flex justify-between">
         <div className="basis-2/3 p-4">
           <h2 className="text-4xl font-sans font-bold">Mateusz Ostafil</h2>
           <h3 className="text-lg">
-            Technical Evangelist / Trainer / Mentor / Leader @{" "}
+            Technology Evangelist / Trainer / Mentor / Leader @{" "}
             <a
               className="text-blue-700 underline"
               href="https://www.divante.com/"

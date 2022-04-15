@@ -8,7 +8,7 @@ type Props = {
 function Videos({ videos }: Props) {
   return (
     <div className="border-8 border-black my-4">
-      <h1 className="text-6xl font-bold uppercase  text-center ">Videos</h1>
+      <h1 className="text-6xl font-bold uppercase mt-2 text-center ">Videos</h1>
       <div className="font-mono border-8 border-black m-2 p-2">
         <p className="m-2 text-lg">Here are some of my videos</p>
         <div className="flex flex-wrap gap-2">

@@ -10,7 +10,9 @@ export interface Talk {
 function Talks({ talks }: { talks: Talk[] }) {
   return (
     <div className="border-8 border-black my-4">
-      <h1 className="text-6xl font-bold uppercase  text-center ">My Talks</h1>
+      <h1 className="text-6xl font-bold uppercase mt-2 text-center ">
+        My Talks
+      </h1>
       <div className="font-mono border-8 border-black m-2">
         <p className="m-5 text-lg">
           Sharing is caring. You can meet me at conferences, meetups and
