@@ -1,9 +1,18 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Icon from "../components/icon";
 
 const Home: NextPage = () => {
   return (
     <div className="border-8 border-black my-4">
+      <Head>
+        <title>Mateusz Ostafil | Homepage</title>
+        <meta
+          name="description"
+          content="Homepage of Mateusz Ostafil - Technology Evangelist / Trainer / Mentor / Leader @ Divante"
+        />
+        <meta name="og:image" content="/me.webp" />
+      </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">About</h1>
       <div className="font-mono border-8 border-black m-2 md:flex justify-between">
         <div className="basis-2/3 p-4">

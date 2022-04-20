@@ -8,8 +8,6 @@ export default function VideoComponent({ video }: Props) {
     <div className="flex-1 basis-auto md:basis-1/3 border-4 border-black p-3">
       <iframe
         className="w-full md:h-80"
-        // width="560"
-        // height="315"
         src={video.src}
         title="YouTube video player"
         frameBorder="0"

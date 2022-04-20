@@ -1,15 +1,32 @@
+import dayjs from "dayjs";
+import Head from "next/head";
 import BrutList from "../components/brut-list";
 
-export interface Talk {
+interface Talk {
   date: string;
   venue: string;
   title: string;
   link: string;
 }
 
-function Talks({ talks }: { talks: Talk[] }) {
+type Props = {
+  talks: Talk[];
+};
+
+function Talks({ talks }: Props) {
+  const items = talks.map((talk) => ({
+    ...talk,
+    date: dayjs(talk.date ?? ""),
+  }));
   return (
     <div className="border-8 border-black my-4">
+      <Head>
+        <title>Mateusz Ostafil | Talks</title>
+        <meta
+          name="description"
+          content="List of public talks at conferences, meetups, etc. that Mateusz Ostafil gave"
+        />
+      </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">
         My Talks
       </h1>
@@ -18,13 +35,13 @@ function Talks({ talks }: { talks: Talk[] }) {
           Sharing is caring. You can meet me at conferences, meetups and
           webinars. Here&apos;s a list of talks that I&apos;ve given.
         </p>
-        <BrutList items={talks}></BrutList>
+        <BrutList items={items}></BrutList>
       </div>
     </div>
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(): Promise<{ props: Props }> {
   return {
     props: {
       talks: [
@@ -137,7 +154,7 @@ export async function getStaticProps() {
           title: "Conversational UI",
           link: "https://www.meetup.com/Krakow-Ruby-Users-Group/events/231859660/",
         },
-      ] as Talk[],
+      ],
     },
   };
 }
