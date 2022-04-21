@@ -82,7 +82,7 @@ module.exports = {
       animation: {
         glitch: "glitch 1.5s ease-in-out infinite",
         shiver: "shiver 3s ease-in-out infinite",
-        appear: "appear 3s ease-in",
+        appear: "appear 2s ease-in",
       },
     },
   },
