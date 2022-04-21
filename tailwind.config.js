@@ -9,6 +9,11 @@ module.exports = {
     },
     extend: {
       keyframes: {
+        appear: {
+          "0%": { opacity: 0 },
+          "80%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
         shiver: {
           "0%": { transform: "translate(0, 0)" },
           "5%": { transform: "translate(-2px, -0)" },
@@ -77,6 +82,7 @@ module.exports = {
       animation: {
         glitch: "glitch 1.5s ease-in-out infinite",
         shiver: "shiver 3s ease-in-out infinite",
+        appear: "appear 3s ease-in",
       },
     },
   },

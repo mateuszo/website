@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import Script from "next/script";
+import { CookieNotice } from "../components/cookie-notice";
 import Layout from "../components/layout";
 import "../styles/globals.css";
 
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <CookieNotice></CookieNotice>
     </>
   );
 }
