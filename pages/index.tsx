@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           This is my homepage; it aggregates all my blog posts, videos and lists public talks that I gave. 
           I provide SAP Spartacus trainings and act as a Team Leader in implementation projects."
         />
-        <meta name="og:image" content="/preview.jpg" />
+        <meta name="og:image" content="https://ostafil.pl/preview.jpg" />
       </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">About</h1>
       <div className="font-mono border-8 border-black m-2 lg:flex justify-between">
