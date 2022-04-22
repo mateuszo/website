@@ -26,6 +26,7 @@ function Talks({ talks }: Props) {
           name="description"
           content="List of public talks at conferences, meetups, etc. that Mateusz Ostafil gave"
         />
+        <meta name="author" content="Mateusz Ostafil" />
       </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">
         My Talks

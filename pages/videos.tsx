@@ -15,6 +15,7 @@ function Videos({ videos }: Props) {
           name="description"
           content="A collection of videos that Mateusz Ostafil worked on"
         />
+        <meta name="author" content="Mateusz Ostafil" />
       </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">Videos</h1>
       <div className="font-mono border-8 border-black m-2 p-2">

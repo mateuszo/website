@@ -8,16 +8,22 @@ const Home: NextPage = () => {
       <Head>
         <title>Mateusz Ostafil | Homepage</title>
         <meta
-          name="og:title"
+          property="og:title"
           content="Mateusz Ostafil - Tech Evangelist / Leader @ Divante"
         />
+        <meta name="author" content="Mateusz Ostafil"></meta>
         <meta
           name="description"
+          property="og:description"
           content="Homepage of Mateusz Ostafil - Technology Evangelist / Trainer / Mentor / Leader @ Divante. 
           This is my homepage; it aggregates all my blog posts, videos and lists public talks that I gave. 
           I provide SAP Spartacus trainings and act as a Team Leader in implementation projects."
         />
-        <meta name="og:image" content="https://ostafil.pl/preview.jpg" />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://ostafil.pl/preview.jpg"
+        />
       </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">About</h1>
       <div className="font-mono border-8 border-black m-2 lg:flex justify-between">

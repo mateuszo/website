@@ -29,6 +29,7 @@ function Blog({ articles }: Props) {
           name="description"
           content="Blog posts that Mateusz Ostafil wrote"
         />
+        <meta name="author" content="Mateusz Ostafil" />
       </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">Blog</h1>
       <div className="font-mono border-8 border-black m-2">
