@@ -1,19 +1,7 @@
 import { useEffect, useState } from "react";
 import { getCookie, setCookie } from "typescript-cookie";
 
-// function getConsent() {
-//   return !!document ? getCookie("consent") : false;
-// }
-
-// function setConsent() {
-//   if (document) {
-//     setCookie("consent", true);
-//   }
-// }
-
 export function CookieNotice() {
-  // console.log(getConsent());
-
   const [consent, setConsent] = useState(false);
 
   useEffect(() => {
@@ -25,7 +13,6 @@ export function CookieNotice() {
   useEffect(() => {
     if (consent) {
       setCookie("consent", true);
-      console.log("consent set");
     }
   });
 
