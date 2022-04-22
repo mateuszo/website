@@ -8,13 +8,19 @@ const Home: NextPage = () => {
       <Head>
         <title>Mateusz Ostafil | Homepage</title>
         <meta
-          name="description"
-          content="Homepage of Mateusz Ostafil - Technology Evangelist / Trainer / Mentor / Leader @ Divante"
+          name="og:title"
+          content="Mateusz Ostafil - Tech Evangelist / Leader @ Divante"
         />
-        <meta name="og:image" content="/me.webp" />
+        <meta
+          name="description"
+          content="Homepage of Mateusz Ostafil - Technology Evangelist / Trainer / Mentor / Leader @ Divante. 
+          This is my homepage; it aggregates all my blog posts, videos and lists public talks that I gave. 
+          I provide SAP Spartacus trainings and act as a Team Leader in implementation projects."
+        />
+        <meta name="og:image" content="/preview.jpg" />
       </Head>
       <h1 className="text-6xl font-bold uppercase mt-2 text-center ">About</h1>
-      <div className="font-mono border-8 border-black m-2 md:flex justify-between">
+      <div className="font-mono border-8 border-black m-2 lg:flex justify-between">
         <div className="basis-2/3 p-4">
           <h2 className="text-4xl font-sans font-bold">Mateusz Ostafil</h2>
           <h3 className="text-lg">
@@ -28,7 +34,7 @@ const Home: NextPage = () => {
               Divante
             </a>
           </h3>
-          <p className="mt-3">Hello I&apos;m Mateusz, I learn, I teach.</p>
+          <p className="mt-3">Hello I&apos;m Matt, I learn, I teach.</p>
           <p className="mt-3">
             I consider myself to be a mediocre developer. However, IMHO I excel
             in knowledge sharing. That&apos;s why I decided to be a missing link
@@ -97,7 +103,7 @@ const Home: NextPage = () => {
             <Icon type="email"></Icon> mostafil at divante.com
           </p>
         </div>
-        <div className="relative basis-1/3 max-w-sm m-auto md:m-0 self-end object-contain">
+        <div className="relative basis-1/3 max-w-md m-auto lg:m-0 self-end object-contain">
           <img className="grayscale" src="/me.webp" alt="Mateusz Ostafil"></img>
           <img
             className="absolute bottom-0 top-1 left-1 saturate-200 opacity-20"
