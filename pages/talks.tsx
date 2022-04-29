@@ -47,6 +47,12 @@ export async function getStaticProps(): Promise<{ props: Props }> {
     props: {
       talks: [
         {
+          date: "2022-04-28",
+          venue: "dev.js summit 2022",
+          title: "SSR: The Good, The Bad & The Ugly",
+          link: "https://www.youtube.com/watch?v=M7HngP4vrsQ",
+        },
+        {
           date: "2022-04-07",
           venue: "Divante Webinar",
           title: "When project manager meets developer",
@@ -72,7 +78,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
         },
         {
           date: "2021-10-14",
-          venue: "dev.js summit",
+          venue: "dev.js summit 2021",
           title: "Kill the mutants",
           link: "https://www.youtube.com/watch?v=QC40DJvXVow",
         },

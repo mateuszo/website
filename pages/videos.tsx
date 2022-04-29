@@ -74,6 +74,12 @@ export async function getStaticProps() {
         "Teaser video for another openSAP course that I co-created. Again, I was responsible for course curriculum and recording of some chapters.",
     },
     {
+      title: "SSR: The Good, The Bad & The Ugly @ dev.js summit 2022",
+      src: "https://www.youtube.com/embed/M7HngP4vrsQ",
+      description:
+        "Recording of my talk about Server Side Rendering at dev.js summit 2021 conference",
+    },
+    {
       title: "Kill the mutants @ dev.js summit 2021",
       src: "https://www.youtube.com/embed/QC40DJvXVow",
       description:
