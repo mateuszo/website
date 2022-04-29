@@ -1,0 +1,20 @@
+<xml version="1.0" encoding="UTF-8">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ostafil.pl/</loc>
+    <lastmod>2022-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://ostafil.pl/blog</loc>
+    <lastmod>2022-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://ostafil.pl/videos</loc>
+    <lastmod>2022-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://ostafil.pl/talks</loc>
+    <lastmod>2022-04-29</lastmod>
+  </url>
+</urlset>
+</xml>
