@@ -47,6 +47,12 @@ export async function getStaticProps(): Promise<{ props: Props }> {
     props: {
       talks: [
         {
+          date: "2022-06-15",
+          venue: "WeAreDevelopers World Congress 2022",
+          title: "SSR: The Good, The Bad & The Ugly",
+          link: "https://www.wearedevelopers.com/world-congress/",
+        },
+        {
           date: "2022-04-28",
           venue: "dev.js summit 2022",
           title: "SSR: The Good, The Bad & The Ugly",
