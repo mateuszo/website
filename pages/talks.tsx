@@ -28,13 +28,11 @@ function Talks({ talks }: Props) {
         />
         <meta name="author" content="Mateusz Ostafil" />
       </Head>
-      <h1 className="text-6xl font-bold uppercase mt-2 text-center ">
-        My Talks
-      </h1>
+      <h1 className="text-6xl font-bold uppercase mt-2 text-center ">My Talks</h1>
       <div className="font-mono border-8 border-black m-2">
         <p className="m-5 text-lg">
-          Sharing is caring. You can meet me at conferences, meetups and
-          webinars. Here&apos;s a list of talks that I&apos;ve given.
+          Sharing is caring. You can meet me at conferences, meetups and webinars. Here&apos;s a list of talks that
+          I&apos;ve given.
         </p>
         <BrutList items={items}></BrutList>
       </div>
@@ -46,6 +44,12 @@ export async function getStaticProps(): Promise<{ props: Props }> {
   return {
     props: {
       talks: [
+        {
+          date: "2022-09-23",
+          venue: "B2B Commerce & Supply Chain Nordic Edition",
+          title: "The digital transformation of Mirka",
+          link: "https://www.youtube.com/watch?v=QhmwsBd5Q2s",
+        },
         {
           date: "2022-06-15",
           venue: "WeAreDevelopers World Congress 2022",
@@ -145,8 +149,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
         {
           date: "2017-06-05",
           venue: "Tipi UX #2 Kraków",
-          title:
-            "Jak pozbyć się frontu - czyli conversational UI okiem programisty",
+          title: "Jak pozbyć się frontu - czyli conversational UI okiem programisty",
           link: "https://crossweb.pl/en/events/tipi-ux-2-krakow",
         },
         {
